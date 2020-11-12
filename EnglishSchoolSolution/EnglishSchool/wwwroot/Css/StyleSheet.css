@@ -1,0 +1,104 @@
+﻿*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height:100%;
+    font-size: 67.5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background: rgb(49, 80, 182);   
+       height: 7.2rem;
+
+}
+ nav ul {
+        list-style: none;
+        float: left;
+        
+       
+    }
+ nav li{
+     float: left;
+     margin: 2rem auto auto 3rem;
+   
+ }
+
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color:white;
+    cursor:pointer;
+    transition: 0.5s;
+}
+    nav a:hover {
+        font-size: 3rem;
+        color: rgb(186, 61, 65);
+        font-weight: 500;
+     
+    }
+nav img {
+    float: left;
+    width: 7rem;
+    height: 7rem;
+    padding: 1rem;
+    transition: 0.5s;
+}
+    nav img:hover {
+        width: 7.7rem;
+        height: 7.7rem;
+    }
+.clear{
+    clear:both;
+}
+nav button {
+    height: 4rem;
+    width: 10rem;
+    float: right;
+    margin: 1.5rem 5rem auto auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    border-radius: 10%;
+    cursor:pointer;
+    background: none;
+    color: white;
+    transition:  0.5s;
+    border: 1px solid white;
+   
+     }
+button:hover {
+    background-color: rgb(186, 61, 65);
+    width:15rem;
+}
+.center-section {
+    background-image: url(../Images/wallpaper.jpg);
+    height: 80rem;
+    background-size: inherit;
+    background-position: top;
+    text-align: center;
+    padding: 30rem;
+    text-shadow: 3px 10px 3px rgb(29, 61, 29);
+    transition: 2.5s;
+
+}
+    .center-section:hover {
+        background-position: bottom;
+    }
+h2 {
+    font-size: 8rem;
+    color: white;
+    transition: 0.5s;
+}
+h3 {
+    font-size: 7rem;
+    color: white;
+    transition: 0.5s;
+}
+.center-section h2:hover {
+    color: rgb(186, 61, 65);
+}
+.center-section h3:hover {
+    color: rgb(49, 80, 182);
+}     

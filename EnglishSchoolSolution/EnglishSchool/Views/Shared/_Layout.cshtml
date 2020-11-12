@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Css/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+        
+    <header>
+        <nav>
+
+            <a href="#"><img src="~/Images/logo.png" alt="Logo-Image" /></a> 
+            <button>Zapisz się</button>
+            <ul>
+                <li><a href="#">Strona główna</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">O nas</a></li>
+                <li><a href="#">Oferta</a></li>
+            </ul>
+            <div class="clear"></div>
+        </nav>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    <section>
+        <header>
+
+        </header>
+  
+    </section>
+</body>
+</html>
